@@ -49,6 +49,13 @@ header li {
 header #branding {
   float: left;
 }
+header #branding a {
+  font-size: 30px;
+}
+
+header #branding span {
+  font-size: 40px;
+}
 
 header #branding h1 {
   margin: 0;
@@ -213,4 +220,54 @@ footer a:hover {
   margin-top: 70px;
   height: 200px;
   padding-left: 20px;
+}
+
+.contact h1 {
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 80px;
+  text-transform: capitalize;
+}
+
+.contact img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+.contact .form {
+  /* border: 2px dotted black; */
+  width: 300px;
+  margin: 20px auto;
+}
+.contact .form h3,
+input,
+textarea,
+button h3 .name_n {
+  margin-left: 20px;
+  width: 240px;
+  display: inline;
+}
+.contact .form input {
+  height: 20px;
+}
+
+.contact .form .button {
+  padding: 7px;
+  font-weight: bold;
+  background-color: grey;
+  color: white;
+  font-size: large;
+  width: 240px;
+  margin: 20px 26px;
+}
+.contact .form .button {
+  height: 50px;
+}
+.numbers h2 {
+  margin: 180px auto;
+  text-align: center;
 }

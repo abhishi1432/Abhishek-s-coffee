@@ -1,45 +1,75 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Welcome</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-</head>
-
-<body>
-    <h1 id="top"><u>The Coffee Bar</u></h1>
-    <img src="./logo.png" alt="The Coffee" width="200px">
-    <br><br>
-    <ul>
-        <li><a href="about.html"><b>About</b></a></li>
-        <li><a href="number.html"><b>Numbers</b></a></li>
-        <li><a href="home.html"><b>Homepage</b></a></li>
-    </ul>
-
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>
+            <a href="./index.html"
+              ><span class="highlight">Abhishek's</span> Coffee</a
+            >
+          </h1>
+        </div>
+        <nav>
+          <ul>
+            <li >
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="./about.html">About</a>
+            </li>
+            <li>
+              <a href="./numbers.html">Numbers</a>
+            </li>
+            <li class="current">
+              <a href="./contact.html" >Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="contact">
+      <form action="submit">
+        <h1>Write to us</h1>
+        <img src="./images/avatar.svg" alt="" id="avatar" />
+        <div class="form">
+          <form>
+            <h3 class="name_n">Name</h3>
+            <input type="text" name="Name" id="name" />
+            <h3>Email</h3>
+            <input type="email" name="Email" id="email" />
+            <h3>Message</h3>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+           <input type="button" class="button" value="Submit">
+          </form>
+        </div>
+      </form>
+    </div>
+    <footer>
+     <div class="container">
+      <div id="copyright">
+       <h4>The Abhishek &copy; 2020-21</h4>
+      </div>
     
-
-    <br><br>
-    <h2>Contact Us:</h2>
-    
-    <form action="">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Your name">
-        <br>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email" placeholder="xyz@example.com">
-        <br><br>
-        <label for="description">Description</label><br>
-        <textarea name="description" id="" cols="30" rows="10" placeholder="write here..."></textarea>
-        <br><br>
-        <button type="submit">Submit</button>
-
-
-    </form>
-    
-
-    <br><br><br><br><br><br>
-    <p><em>Copyright</em> &copy; <em>2020</em></p>
-    <a href="#top">Back to Top of the page.</a>
-</body>
-
+      <nav>
+       <ul>
+        <li> <a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">License</a></li>
+       </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
