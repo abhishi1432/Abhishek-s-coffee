@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  /* font: 15px/1.5 Arial, Helvetica, sans-serif; */
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
   background-color: rgb(233, 252, 251);
@@ -221,14 +221,28 @@ footer a:hover {
   height: 200px;
   padding-left: 20px;
 }
+.contact {
+  width: 400px;
+  height: 650px;
+  background: #000;
+  margin-bottom: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -20%);
+  box-sizing: border-box;
+  position: absolute;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
 
 .contact h1 {
   font-size: 30px;
-  color: black;
+  color: white;
   font-weight: bolder;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 20px;
   text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .contact img {
@@ -242,19 +256,29 @@ footer a:hover {
   /* border: 2px dotted black; */
   width: 300px;
   margin: 20px auto;
+  color: white;
 }
 .contact .form h3,
 input,
 textarea,
 button h3 .name_n {
-  margin-left: 20px;
-  width: 240px;
+  width: 300px;
   display: inline;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  font-family: monospace;
 }
 .contact .form input {
   height: 20px;
 }
 
+.contact .form input {
+  border: none;
+  border-bottom: 0.5px solid grey;
+  background: transparent;
+  margin-bottom: 20px;
+}
 .contact .form .button {
   padding: 7px;
   font-weight: bold;
@@ -266,8 +290,18 @@ button h3 .name_n {
 }
 .contact .form .button {
   height: 50px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
 }
 .numbers h2 {
   margin: 180px auto;
   text-align: center;
+}
+.contact .form .button:hover {
+  background-color: #21da9c;
+  cursor: pointer;
+}
+#newsletter .container input {
+  color: black;
 }
