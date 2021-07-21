@@ -16,7 +16,7 @@ body {
   position: absolute;
   transform: translate(-40%, -29%);
   box-sizing: border-box;
-  color: rgb(247, 42, 49);
+  color:#0fa372;
   padding: 70px 30px;
   margin-bottom: 30px;
 }
