@@ -76,7 +76,7 @@ input[type="tel"] {
 
 .loginbox input[type="submit"]:hover {
   cursor: pointer;
-  background: #21da9c;
+  background: #fc5656;
   color: #fff;
 }
 
